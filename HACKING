@@ -1,0 +1,5 @@
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+apt-get install mercurial bison
+gvm install go1.3.3
+gvm use go1.3.3 --default
+
